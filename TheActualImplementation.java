@@ -3,11 +3,7 @@ public class TheActualImplementation implements TheInterface {
         return multiplicant * multiplier;
     }
 
-    int add(int base, int addition) {
-        return base + addition;
-    }
-
     int sum(int first, int second) {
-        return add(first, second);
+        return first + second;
     }
 }

@@ -12,14 +12,6 @@ public interface TheInterface {
     /**
      * Sums two numbers.
      * 
-     * @param base the first number
-     * @param addition the second number
-    */
-    int add(int base, int addition);
-
-    /**
-     * Sums two numbers.
-     * 
      * @param first the first number
      * @param second the second number
     */
