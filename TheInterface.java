@@ -24,4 +24,12 @@ public interface TheInterface {
      * @param second the second number
     */
     int sum(int first, int second);
+
+    /**
+     * Calculate square f the given root.
+     * 
+     * @param root os the square
+     * @return square of the given root.
+    */
+    int square(int root);
 }
