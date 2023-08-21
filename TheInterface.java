@@ -8,4 +8,6 @@ public interface TheInterface {
      * @param multiplier factor of multiplicaiton.
      */
     int multiply(int multiplicant, int multiplier);
+
+    int add(int base, int addition);
 }
