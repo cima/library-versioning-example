@@ -4,10 +4,6 @@ public class TheActualImplementation implements TheInterface {
     }
 
     int add(int base, int addition) {
-        int sum = base;
-        for(int i = 0; i <= addition; i++){
-            sum += 1;
-        }
-        return sum;
+        return base + addition;
     }
 }
