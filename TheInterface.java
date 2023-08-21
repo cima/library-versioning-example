@@ -9,5 +9,11 @@ public interface TheInterface {
      */
     int multiply(int multiplicant, int multiplier);
 
+    /**
+     * Sums two numbers.
+     * 
+     * @param base the first number
+     * @param addition the second number
+    */
     int add(int base, int addition);
 }
