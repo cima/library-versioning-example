@@ -10,4 +10,8 @@ public class TheActualImplementation implements TheInterface {
 
         return first + second;
     }
+
+    int square(int root) {
+        return root * root;
+    }
 }
