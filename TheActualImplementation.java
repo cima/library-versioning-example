@@ -8,10 +8,6 @@ public class TheActualImplementation implements TheInterface {
     }
 
     int sum(int first, int second) {
-        int summary = first;
-        for(int i = 0; i <= second; i++){
-            summary += 1;
-        }
-        return summary;
+        return first + second;
     }
 }
