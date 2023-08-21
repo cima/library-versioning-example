@@ -14,4 +14,8 @@ public class TheActualImplementation implements TheInterface {
     int square(int root) {
         return root * root;
     }
+
+    int square(int root) {
+        return root * root;
+    }
 }
